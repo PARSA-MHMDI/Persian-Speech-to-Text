@@ -1,6 +1,9 @@
 
 # 🎧📝🎯 Automatic Speech Recognition (ASR) System 🎯📝🎧
 
+![banner](./image.jpg)
+
+
 ## 📋 Outline 📋
 
 1. **Project Overview**
