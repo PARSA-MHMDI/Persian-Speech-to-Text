@@ -1,0 +1,8 @@
+gradio
+espnet
+torch==1.13.1
+torchaudio
+soundfile
+librosa
+wget
+gdown
