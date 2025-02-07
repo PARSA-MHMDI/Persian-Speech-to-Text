@@ -41,11 +41,30 @@ The project was carried out as part of an internship at **Asr Gooyesh Pardaz Com
 
 ```
 .
-├── asr_config.yaml        # Configuration file for ASR model training
-├── config.yaml            # Configuration file for language model training
-├── common_voice_ASR.ipynb # Jupyter Notebook for ASR experiments
-├── Internship_Report.pdf  # Detailed project report
-└── README.md              # Project documentation
+├── README.md                   # Project overview (this file)
+├── .gitignore                  # Git ignore rules
+├── requirements.txt            # Python dependencies
+├── src/                        # Source code (modules, scripts)
+│   └── app.py
+├── notebooks/                  # Jupyter notebooks
+│   └── common_voice_ASR.ipynb
+├── configs/                    # Configuration files
+│   ├── asr_config.yaml
+│   ├── config.yaml
+│   └── train_lm_transformer.yaml
+├── models/                     # Model checkpoints, e.g., *.pth files
+│   ├── 45epoch.pth
+│   ├── 50epoch.pth
+│   ├── lm_valid.loss.ave_10best.pth
+│   └── valid.acc.ave_10best.pth
+├── data/                       
+│   └── ...
+├── docs/                       # Documentation, reports, PDFs, LaTeX files
+│   ├── Internship_Report.pdf
+│   └── Latex_files.zip
+└── experiments/                
+    └── ...
+
 ```
 
 ## ⚙️ Configuration Files ⚙️
